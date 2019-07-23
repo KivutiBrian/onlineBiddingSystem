@@ -4,7 +4,7 @@ class Config(object):
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:Brian8053@@127.0.0.1:5432/onlineBiddingSystem'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@127.0.0.1:5432/onlineBiddingSystem'
     SECRET_KEY = 'some=secret-key'
 
 class ProductionConfig(Config):
